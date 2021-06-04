@@ -1,6 +1,6 @@
 # Basic Discord Bot
 
-Intended to be a starting point for experimenting with [discord.py](https://discordpy.readthedocs.io/en/stable/) bots in a replit.
+Intended to be a starting point for experimenting with [discord.py](https://discordpy.readthedocs.io/en/stable/) bots in a replit (depends on [replit-db](https://github.com/replit/replit-py)).
 
 Combines various snippets and features from tutorials, Replit templates and [discord.py](https://discordpy.readthedocs.io/en/stable/) docs.
 
