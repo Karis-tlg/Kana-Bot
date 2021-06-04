@@ -30,6 +30,10 @@ Settings are stored in a `settings.py` file. Management commands can be added to
 - encouragements - encouragements bot from freecodecamp tutorial (see below) put into a cog and extension
 - greetings - minimal greetings bot verbatim from `discord.py` docs
 
+### TODO
+
+- integrate music bot from replit template into `extensions/`
+
 ### Contributing
 
 [https://github.com/bk62/basic-discord-bot](https://github.com/bk62/basic-discord-bot)
@@ -40,7 +44,7 @@ Settings are stored in a `settings.py` file. Management commands can be added to
 
 + https://www.freecodecamp.org/news/create-a-discord-bot-with-python/ (starting point for `extensions.encouragements`)
 + https://replit.com/@templates/Discordpy-bot-template-with-commands-extension (starting point for `extensions.admin`)
-+ https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html and  https://github.com/Rapptz/discord.py/tree/v1.7.2/examples (starting point for `extensions.economy` and `extensions.greetings`)
++ https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html and  https://github.com/Rapptz/discord.py/tree/v1.7.2/examples (starting point for `extensions.economy`, `extensions.guessing_game` and `extensions.greetings`)
 
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
