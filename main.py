@@ -19,6 +19,8 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
+    # Additional handling of on_message events before
+    # any extension commands
     if message.author == bot.user:
         return
 

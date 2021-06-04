@@ -8,6 +8,7 @@ class AdminCommands(commands.Cog, name='Bot Admin Commands'):
     def __init__(self, bot):
         self.bot = bot
 
+    # Only bot owners
     async def ext_check(self, ctx):
         return ctx.author.id == self.bot.author_id
 
