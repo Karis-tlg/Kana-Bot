@@ -15,6 +15,7 @@ ALL_EXTENSIONS = {
     'extensions.economy': True,
 
     'extensions.greetings': True,
+    'extensions.guessing_game': True,
 }
 
 # Only enabled extensions are loaded in main.py

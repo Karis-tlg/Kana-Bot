@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 
 
-class Greetings(commands.Cog):
+class Greetings(commands.Cog, name="Greetings"):
     def __init__(self, bot):
         self.bot = bot
 
