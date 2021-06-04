@@ -4,6 +4,7 @@ Intended to be a starting point for experimenting with [discord.py](https://disc
 
 Combines various snippets and features from tutorials, Replit templates and [discord.py](https://discordpy.readthedocs.io/en/stable/) docs.
 
+WIP
 
 ### Setup
 
