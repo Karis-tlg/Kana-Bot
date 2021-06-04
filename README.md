@@ -12,13 +12,18 @@ Store bot secret token and owner id in env vars called `TOKEN` and `BOT_OWNER_ID
 
 Command prefix and enabled extensions can be configured in settings.py
 
+
 ### Usage
 
-`python run.py`
+`python run.py run`
 
 Also run flask web server to keep a Repl alive: 
 
-`python run.py --keepalive`
+`python run.py run --keepalive`
+
+Reset replit-db:
+
+`python run.py cleardb`
 
 
 ### Project Structure
