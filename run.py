@@ -4,7 +4,7 @@ import click
 
 
 @click.command()
-@click.option('--keep-alive', default=False, help='Run flask thread to keep Repl alive.')
+@click.option('--keep-alive', is_flag=True, help='Run flask thread to keep Repl alive.')
 def run(keep_alive):
     """Run the Discord bot."""
     if keep_alive:
